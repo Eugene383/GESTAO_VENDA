@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Venda" ADD COLUMN     "total" DECIMAL(10,2) NOT NULL DEFAULT 0;
