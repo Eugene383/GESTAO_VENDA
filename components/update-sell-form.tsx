@@ -43,7 +43,7 @@ export default function UpdateSellForm({venda}:{venda:any}){
                             <Input placeholder="preço do produto Ex:20.000" defaultValue={venda.cliente.nome} name="preco"/>
                              {
                                 state?.error?.clienteId&&(
-                                    <p className="text-sm text-red-500">{state.error.clienteId}</p>
+                                    <p className="text-sm text-yellow-500">{state.error.clienteId}</p>
                                 )
                             }
                         </fieldset> 
